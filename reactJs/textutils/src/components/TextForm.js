@@ -60,13 +60,13 @@ export default function TextForm(props) {
                     }}></textarea>
                 </div>
                 <div className="row">
-                    <div className="col-md-3"> <button className='btn btn-primary' onClick={handleUpClick} >Convert To Uppercase</button></div>
-                    <div className="col-md-3"> <button className='btn btn-primary' onClick={handleDownClick} >Convert To Lowercase</button></div>
-                    <div className="col-md-2"> <button className='btn btn-primary' onClick={removeText} >Remove Text</button></div>
+                    <div className="col-md-3 my-3"> <button className='btn btn-primary' onClick={handleUpClick} >Convert To Uppercase</button></div>
+                    <div className="col-md-3 my-3"> <button className='btn btn-primary' onClick={handleDownClick} >Convert To Lowercase</button></div>
+                    <div className="col-md-2 my-3"> <button className='btn btn-primary' onClick={removeText} >Remove Text</button></div>
 
-                    <div className="col-md-2"> <button className='btn btn-primary' onClick={handleCopy} >Copy Text</button></div>
+                    <div className="col-md-2 my-3"> <button className='btn btn-primary' onClick={handleCopy} >Copy Text</button></div>
 
-                    <div className="col-md-2"> <button className='btn btn-primary' onClick={handleExtraSpaces} >Remove Extra Spaces</button></div>
+                    <div className="col-md-2 my-3"> <button className='btn btn-primary' onClick={handleExtraSpaces} >Remove Extra Spaces</button></div>
                 </div>
 
             </div>
